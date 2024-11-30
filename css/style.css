@@ -68,6 +68,9 @@ hr {
   height: 0;
   overflow: visible; }
 
+    	
+
+
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem; }
@@ -6776,7 +6779,7 @@ button.bg-dark:focus {
 
 .pb-5,
 .py-5 {
-  padding-bottom: 3rem !important; }
+  padding-bottom: 0.25rem !important; }
 
 .pl-5,
 .px-5 {
@@ -9062,7 +9065,7 @@ textarea.form-control {
   position: relative; }
   @media  {
     .ftco-section {
-      padding: 6em 0; } }
+      padding: 2em 0; } }
 
 .ftco-no-pt {
   padding-top: 0 !important; }
@@ -9447,6 +9450,44 @@ textarea.form-control {
       text-transform: uppercase;
       letter-spacing: 1px;
       font-weight: 600; }
+
+
+/* Images*/
+.gallery{
+    		//background: url("images/gallery.jpg");
+    		background-size: cover;
+    		padding-bottom: 50px;
+                position: relative;
+           // z-index: 3;
+    	}
+    	.gallery h1{
+    		font-size: 50px;
+    		text-shadow: 3px 3px black;
+    		//color: white;
+            font-family: Chewy;
+            position: relative;
+            z-index: 3;
+    	}
+    	.frame{
+    		background: url("images/frame.png") no-repeat;
+    		width: 300px;
+    		height: 370px;
+    		display: inline-block;
+    		margin:0px 20px 20px 20px;
+            position: relative;
+           
+            //font-family: Reenie Beanie;
+		color: black;
+            font-size: 15px;
+    	}        
+        .popup{
+            margin-top: 44px;
+            //content: url("images/bg_1.jpg");
+            width: 275px;
+            height: 290px;
+            object-fit:  cover;
+        }
+
 
 /* Blog*/
 .post-info {
